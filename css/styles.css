@@ -627,12 +627,8 @@ section {
   line-height: 1.5;
   text-align: center;
   margin-top: 72px;
+  margin-bottom: 16px;
 }
-
-.modal-form {
-  margin-top: 16px;
-}
-
 .modal-field {
   margin-bottom: 8px;
 }
@@ -699,11 +695,9 @@ section {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-
-.modal-field {
+.modal-checkbox {
   margin-top: 16px;
 }
-
 .check-text {
   font-size: 12px;
   display: flex;
