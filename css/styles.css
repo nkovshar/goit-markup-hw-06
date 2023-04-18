@@ -400,11 +400,6 @@ section {
   display: flex;
   gap: 16px;
 }
-.footer-soc-media {
-  display: block;
-  margin-right: 80px;
-  width: 208px;
-}
 
 .footer-soc-item {
   width: 40px;
@@ -430,7 +425,7 @@ section {
   background-color: var(--footer-hover-focus, #31d0aa);
 }
 .footer-subscription {
-  width: 453px;
+  margin-left: auto;
 }
 .subscription-items {
   display: flex;
@@ -462,11 +457,8 @@ section {
   width: 165px;
   height: 40px;
   background: var(--button-icon-logo-color, #4d5ae5);
-  border-color: var(--button-icon-logo-color, #4d5ae5);
+  border: none;
   border-radius: 4px;
-}
-
-.footer-btn-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -585,8 +577,7 @@ section {
   top: 50%;
   left: 50%;
   width: 408px;
-  min-height: 584px;
-  padding: 24px;
+  padding: 72px 24px 24px;
   background-color: var(--modal-bg, #fcfcfc);
   border-radius: 4px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -607,10 +598,13 @@ section {
   position: absolute;
   top: 24px;
   right: 24px;
+  transition: background-color 250ms var(--timing-function),
+    fill 250ms var(--timing-function);
 }
 
-.modal-close-btn:active {
+.modal-close-btn:hover {
   background-color: var(--main-hover-focus, #404bbf);
+  fill: var(--main-background-color, #ffffff);
 }
 .modal-close-btn:focus-within .modal-close-icon {
   fill: var(--main-background-color, #ffffff);
@@ -626,7 +620,6 @@ section {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  margin-top: 72px;
   margin-bottom: 16px;
 }
 .modal-field {
@@ -638,7 +631,7 @@ section {
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  padding-left: 32px;
+  padding-left: 38px;
   outline: transparent;
   background-color: transparent;
   transition: border-color 250ms var(--timing-function);
@@ -737,15 +730,12 @@ section {
   width: 169px;
   height: 56px;
   background: var(--button-icon-logo-color, #4d5ae5);
-  border-color: var(--button-icon-logo-color, #4d5ae5);
+  border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   display: block;
   margin: 0 auto;
   margin-top: 24px;
-}
-
-.modal-btn-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
